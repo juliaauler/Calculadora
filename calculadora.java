@@ -52,8 +52,8 @@ public class calculadora {
 		
 		//Cálculo de projeção de visualizações
 		projecao = resultado + alcanceint;
-		
-    	return projecao;
+
+		return projecao;
     	
 	}
 	
