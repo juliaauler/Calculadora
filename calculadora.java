@@ -5,16 +5,16 @@ import java.util.Scanner;
 public class calculadora {
 	
 	public static void main(String[] args) {		
-	double valor;
-	Scanner input = new Scanner(System.in);
+		double valor;
+		Scanner input = new Scanner(System.in);
 	
-	System.out.println("Calculadora de alcance de anúncio online!" + "\n");
-	System.out.println("Aqui nós iremos calcular a projeção aproximada da quantidade máxima de pessoas que visualizarão o mesmo anúncio (considerando o anúncio original + os compartilhamentos)" + "\n");
-	System.out.print("Por gentileza, digite o valor investido em reais: R$ ");	
-	valor = input.nextDouble();
-	int valorint = (int)valor;
+		System.out.println("Calculadora de alcance de anúncio online!" + "\n");
+		System.out.println("Aqui nós iremos calcular a projeção aproximada da quantidade máxima de pessoas que visualizarão o mesmo anúncio (considerando o anúncio original + os compartilhamentos)" + "\n");
+		System.out.print("Por gentileza, digite o valor investido em reais: R$ ");	
+		valor = input.nextDouble();
+		int valorint = (int)valor;
 
-	System.out.println("\n" + "Projeção aproximada calculada: " + Calcular(valorint));
+		System.out.println("\n" + "Projeção aproximada calculada: " + Calcular(valorint));
     
 	}
     
