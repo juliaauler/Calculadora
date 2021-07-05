@@ -13,8 +13,8 @@ public class calculadora {
 	System.out.print("Por gentileza, digite o valor investido em reais: R$ ");	
 	valor = input.nextDouble();
 	int valorint = (int)valor;
-  
-    System.out.println("\n" + "Projeção aproximada calculada: " + Calcular(valorint));
+
+	System.out.println("\n" + "Projeção aproximada calculada: " + Calcular(valorint));
     
 	}
     
